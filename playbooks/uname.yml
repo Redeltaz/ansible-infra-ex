@@ -1,0 +1,6 @@
+# uname.yml
+---
+  - hosts: webservers:loadbalancers
+    tasks:
+      - name: Got OS type
+        shell: uname
