@@ -1,0 +1,6 @@
+# all-playbooks.yml
+---
+  - import_playbooks: apt-update.yml
+  - import_playbooks: install-services.yml
+  - import_playbooks: setup-app.yml
+  - import_playbooks: setup-lb.yml
